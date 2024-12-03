@@ -13,11 +13,12 @@ console.log(typeof(myDate))
 let myCreateDate = new Date("2024-11-14")
 console.log(myCreateDate.toDateString())
 
-//Date timestamp 
+// Date timestamp 
 
-let myTimeStamp = Date.now()
+let myTimeStamp =new  Date()
 console.log(myTimeStamp);
 // console.log(myTimeStamp.getTime());
+console.log(myTimeStamp.getTime());
 console.log(Math.floor(Date.now()/1000));
 
 
@@ -28,7 +29,10 @@ console.log(newDate.getFullYear())
 console.log(newDate.getDay())
 console.log(newDate.getMonth())
 
-newDate.toLocaleString('default', {
-    weekday: "long",
-    timeZone: '',
-})
+// newDate.toLocaleString('default', {
+//     weekday: "long",
+//     timeZone: '',
+// })
+
+let myTimeStampp = new Date(); // Current date and time
+console.log(myTimeStampp.getTime()); // Logs the time in milliseconds
