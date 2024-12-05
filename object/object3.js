@@ -8,3 +8,4 @@ const course ={
 const {courseinstructor} = course
 
 console.log(courseinstructor)
+
