@@ -17,6 +17,18 @@ console.log(jsUser["full name"])
 console.log(jsUser[mySym])
 
 
-Object.freeze(jsUser)
-jsUser.email="nikita@gmail.com"
-console.log(jsUser)
+// Object.freeze(jsUser)
+// jsUser.email="nikita@gmail.com"
+// console.log(jsUser)
+
+
+jsUser.greeting = function(){
+    console.log("Hellow js user")
+
+}
+
+jsUser.greetingTwo= function(){
+    console.log(`hello JS user,${this.name}`);
+}
+console.log(jsUser.greeting())
+console.log(jsUser.greetingTwo())
