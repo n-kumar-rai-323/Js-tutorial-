@@ -35,4 +35,5 @@ console.log(newDate.getMonth())
 // })
 
 let myTimeStampp = new Date(); // Current date and time
+
 console.log(myTimeStampp.getTime()); // Logs the time in milliseconds

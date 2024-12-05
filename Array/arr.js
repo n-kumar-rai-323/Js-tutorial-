@@ -27,7 +27,7 @@ console.log(newArr)
 console.log(typeof(newArr))
 
 
-// slice, slice
+// slice, slice different 
 let number =[1,2,3,4,5,6,7,8]
 console.log("A", number);
 
