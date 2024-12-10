@@ -4,7 +4,7 @@ const newNumber = num.filter((num) => num > 4)
 
 console.log(newNumber)
 
-
+// next method 
 
 const again = []
 
