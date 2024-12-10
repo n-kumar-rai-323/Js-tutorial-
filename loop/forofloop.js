@@ -13,3 +13,5 @@ for (const text2 of  text){
     }
     console.log(text2)
 }
+
+
