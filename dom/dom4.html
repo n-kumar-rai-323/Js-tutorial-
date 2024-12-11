@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="child">One</div>
+        <div class="child">two</div>
+        <div class="child">three</div>
+        <div class="child">four</div>
+    </div>
+
+</body>
+<script>
+    const dayOne = document.querySelector('.child')
+    console.log(dayOne)
+    console.log(dayOne.parentElement)
+    console.log(dayOne.nextElementSibling)
+    const main=document.querySelector('.main')
+    console.log(main.firstElementChild)
+    console.log(main.lastElementChild)
+</script>
+</html>
