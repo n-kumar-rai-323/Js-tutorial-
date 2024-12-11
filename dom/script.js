@@ -19,3 +19,20 @@
 // const list= document.querySelectorAll('li')
 
 // list[0].style.color='green'
+
+
+
+
+// const list = document.querySelectorAll('li')
+// undefined
+// list[0].style.color = 'green'
+// 'green'
+// const data = document.querySelector(".heading")
+// undefined
+// console.log(data)
+
+// data[0].style.color='red'
+// 'red'
+// list.forEach((fun)=>{
+//     fun.style.backgroundColor='green'
+// })
