@@ -14,14 +14,35 @@
 
 </body>
 <script>
- function fun(langName){
+    //  function fun(langName){
+    //         const li = document.createElement('li');
+    //         li.innerHTML = `${langName}`
+    //         document.querySelector('.language').appendChild(li)
+    //     }
+    //     fun("Python");
+    //     fun("Java")
+
+   const fun =(langName)=>{
         const li = document.createElement('li');
-        li.innerHTML = `${langName}`
+        li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
-    fun("Python");
-    fun("Java")
+    fun("Nepal")
+    fun("Python")
+    fun("Golang")
+    //edit
+    const second = document.querySelector("li:nth-child(2)")
+    const newLi = document.createElement('li')
+    newLi.textContent  = "Mojo"
+    second.replaceWith (newLi)
 
+    //edit 
+    const third = document.querySelector('li:first-child');
+    third.outerHTML='<li> TypeScript</li>'
+
+    // remove 
+    const listlang = document.querySelector('li:last-child')
+    listlang.remove()
 </script>
 
 </html>
