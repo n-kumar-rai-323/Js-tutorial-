@@ -4,3 +4,7 @@
     background-color: gray;
     font-size: 100px;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
