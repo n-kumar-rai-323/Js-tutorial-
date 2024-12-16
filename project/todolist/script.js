@@ -27,12 +27,22 @@ listLast.style.backgroundColor="yellow"
 
 
 
-const allList = document.querySelectorAll('li')
-console.log(allList)
+// const allList = document.querySelectorAll('li')
+// console.log(allList)
 
-allList[4].style.backgroundColor="blue"
+// allList[4].style.backgroundColor="blue"
 
-allList.forEach((data)=>{
-    data.style.color="navy"
-    data.style.backgroundColor="purple"
+// allList.forEach((data)=>{
+//     data.style.color="navy"
+//     data.style.backgroundColor="purple"
+// })
+
+const listitem =document.getElementsByClassName('list-item')
+
+const conv = Array.from(listitem)
+console.log(conv)
+conv.map((li)=>{
+    li.style.backgroundColor='purple'
+    li.style.color='white'
+    li.style.border='2px solid black'
 })
