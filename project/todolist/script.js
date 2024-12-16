@@ -46,3 +46,14 @@ conv.map((li)=>{
     li.style.color='white'
     li.style.border='2px solid black'
 })
+
+
+const lastli = document.querySelector('.lastli')
+console.log(lastli)
+
+const addElement=(textName)=>{
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(textName))
+    document.querySelector('.lastli').appendChild(li)
+}
+addElement("Alisha")
