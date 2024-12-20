@@ -16,3 +16,17 @@ button.addEventListener("click", function () {
         alert("Please enter an item."); // Alert if input is empty
     }
 });
+
+
+
+
+// document.getElementById('#img').onclick = function(){
+//     alert("Img click")
+// }
+
+// document.getElementById("#ol").addEventListener('click', function(){
+//     alert("img clicked again")
+// })
+
+const image = document.querySelector("#ol")
+console.log(image)
