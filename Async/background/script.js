@@ -11,7 +11,7 @@ console.log(randomColor())
 
 let intervalID
 const startChangeColor = function () {
-    if(!intervalID){
+    if (!intervalID) {
         intervalID = setInterval(changeBgColor, 1000)
     }
     function changeBgColor() {
@@ -21,7 +21,7 @@ const startChangeColor = function () {
 
 const stopColorChange = function () {
     clearInterval(intervalID);
-    intervalID= null;
+    intervalID = null;
 }
 document.querySelector("#button").addEventListener('click', startChangeColor)
 
